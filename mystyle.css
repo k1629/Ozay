@@ -1,0 +1,74 @@
+
+.image img{
+	width:100%;
+}
+.heading  { background-color:#EDEDED;
+color:gray;
+margin:1px;
+padding-top:20px;
+padding-bottom:5px;
+padding-left: 20px;
+margin-left:20%;
+
+}
+
+.create{border-style:solid;
+
+border-color:black;
+border-width:1px;
+margin-left:25%;
+margin-right:5%;
+margin-top:30px;
+}
+
+.submit{
+
+background-color:#EDEDED;
+padding:40px;
+}
+
+.sub{ float:right;
+margin-right:30px;
+}
+
+.note{ margin-bottom:10px;
+	float:left ;
+
+}
+
+.textarea{margin-left:50px;
+}
+.text{margin-top: 5px;
+	margin-bottom: 10px;
+
+}
+.id{ margin-left: 155px;
+	margin-bottom: 10px;	
+
+}
+
+.left-body{
+margin-right: .1px;
+}
+.location{
+position: absolute;
+
+ 
+margin-left:50px;
+}
+.user{position: absolute;
+top: 80px;
+
+
+padding-left:30px;
+padding-right:155px;
+margin-right:.1px;
+background-color: #EDEDED;
+}
+.list{position: absolute;
+	text-align:left;
+top: 170px;
+}
+
+
+
