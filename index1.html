@@ -12,21 +12,31 @@
  </head>
 <body>
 <div class="main">
-<div class="image"><img src="logo.PNG"></div>
+<img src="logo.png" class="img-responsive" alt="Responsive image">
 <div class="left-body">
-<div class="location"><form><select name="appartments">
-<option value="EAST RIVER TOWER"><span><h6>EAST RIVER TOWER<h6></span></option></select> </form>  </div>   
-<div class="user"><h6>WELCOME</h6> <h4>User Name</h4>  </div> 
-<div class="list">
-<ul style="list-style-type:none">
+<div class="location"><div class="tower"><form><select name="appartments">
+<option value="EAST RIVER TOWER"><span><h6>EAST RIVER TOWER<h6></span></option></select> </form> </div> </div>   
+<div class="user"> <div class="welcome"<h6>WELCOME</h6> </div><div class="name"><h4>User Name</h4>  </div> </div>
+<div class="list"><div class="listview">
+<ul style="list-style-type:dropdown">
+<ul class="list-group">
+<div class="dropdown">
 
-<button type="button" class="btn btn-default"><li>DASHBOARD</a></li></button>
-     <Div class="event"> <li>EVENTS</a></li></div>
-      <Div class="noti"><li>NOTIFICATIONS</a></li></div>
-      <Div class="colla"><li>COLLABORATE</a></li></div>
-      <Div class="dir"><li>DIRECTORY</a></li></div>
+<li class="list-group-item">DASHBOARD</li></div>
+
+<div class="dropdown">
+<li class="list-group-item">EVENTS</li>
+</div><div class="dropdown">
+<li class="list-group-item">NOTIFICATIONS </li>
+</div><div class="dropdown">
+<li class="list-group-item">COLLABORATE </li>
+    </div>
+<div class="dropdown">
+<li class="list-group-item">DIRECTORY</li>
+</div>
+</div>
 </ul>
-
+</ul>
 </div>
 
 
@@ -50,7 +60,7 @@
 <div class="text"> <form> Notice<textarea name="Notice" rows="8" cols="50" ></textarea> </lable>
 
 </form></div><lable>
-<div class="id"><form>Issue date?<textarea name="Issue date" rows="1" cols="50"maxlength ="10"> </textarea></form></div> </lable>
+<div class="id"><form>Issue date?<textarea name="Issue date" rows="1" cols="50" wrap="yes"> </textarea></form></div> </lable>
 </div></div>
 </div>
 </html>
